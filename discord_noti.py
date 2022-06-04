@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 
 # 定義
 # botのトークン
-BOT_TOKEN = "OTgwMTAyNzU5NTEwNTc3MTcy.GsF-2P.T4wUMmt1aZghC8hQQImCzBaFsR_GjgDBnBq4S8"
+BOT_TOKEN = "OTgwMTAyNzU5NTEwNTc3MTcy.GADko8.puG_z4dw3Y5OrpqeJgp-u1yMC6CaCC2Uj3x-tc"
 # サーバーID(int型)
 SERVER_ID = 436141576130002944
 # 通知させるチャンネルのID
@@ -45,4 +45,4 @@ async def on_voice_state_update(member, before, after):
                     await alert_channel.send(msg, tts=True)
                     await member.remove_roles(role)
 
-client.run(OTgwMTAyNzU5NTEwNTc3MTcy.GsF-2P.T4wUMmt1aZghC8hQQImCzBaFsR_GjgDBnBq4S8)
+client.run(OTgwMTAyNzU5NTEwNTc3MTcy.GADko8.puG_z4dw3Y5OrpqeJgp-u1yMC6CaCC2Uj3x-tc)
