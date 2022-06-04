@@ -3,11 +3,11 @@ from datetime import datetime, timedelta
 
 # 定義
 # botのトークン
-BOT_TOKEN = "*************************************"
+BOT_TOKEN = "OTgwMTAyNzU5NTEwNTc3MTcy.GsF-2P.T4wUMmt1aZghC8hQQImCzBaFsR_GjgDBnBq4S8"
 # サーバーID(int型)
-SERVER_ID = 000000000000
+SERVER_ID = 436141576130002944
 # 通知させるチャンネルのID
-ALERT_CHANNEL = 00000000000
+ALERT_CHANNEL = 436141576130002946
 # 通話参加時のみ付与させるロールのID
 ROLE_ID = 00000000
 # 通知を除外させたいメンバーID(Rhythmとか)
@@ -45,4 +45,4 @@ async def on_voice_state_update(member, before, after):
                     await alert_channel.send(msg, tts=True)
                     await member.remove_roles(role)
 
-client.run(BOT_TOKEN)
+client.run(OTgwMTAyNzU5NTEwNTc3MTcy.GsF-2P.T4wUMmt1aZghC8hQQImCzBaFsR_GjgDBnBq4S8)
